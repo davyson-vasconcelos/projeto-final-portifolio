@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Entre em Contato</h1>
+    </header>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                
+                <section id="formulario-contato" class="mb-5">
+                    <h2>Envie sua mensagem</h2>
+                    <p>Preencha o formulário abaixo para enviar dúvidas ou solicitar um orçamento:</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail:</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Seu telefone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" class="form-control" placeholder="Assunto da mensagem" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control" placeholder="Deixe sua mensagem" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+        
+        <section id="whatsapp" class="text-center">
+            <h2>Fale comigo pelo WhatsApp</h2>
+            <a href="https://wa.me/5585989341006?text=Olá, gostaria de saber mais informações!" target="_blank">
+                <img src="/images/whatsapp-icon.png" alt="Ícone do WhatsApp" class="img-fluid" style="width: 150px;">
+            </a>
+            <p>Clique no ícone acima para enviar uma mensagem diretamente para o meu WhatsApp.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Curso Capacita Brasil - Atlântico - FullStack</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

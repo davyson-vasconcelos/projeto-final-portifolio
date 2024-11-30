@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aprendizado - HTML, CSS e Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Meu Aprendizado - HTML, CSS e Bootstrap</h1>
+    </header>
+
+    <section class="container my-5">
+        <h2 class="mb-4">Conteúdos que Estou Aprendendo</h2>
+        <p>Ao longo do meu curso de desenvolvimento Fullstack, tenho aprendido várias conteúdos importantes que são fundamentais para criar sites e interfaces interativas e responsivas. As principais tecnologias que estou estudando são:</p>
+        
+        <ul>
+            <li><strong>HTML</strong> - A estrutura básica de páginas web.</li>
+            <li><strong>CSS</strong> - Para estilizar e controlar o layout da página.</li>
+            <li><strong>Bootstrap</strong> - Um framework front-end que facilita o design de páginas responsivas.</li>
+        </ul>
+
+        <h3 class="mt-5">Dicas para Leitores</h3>
+        <p>Se você está começando a aprender HTML, CSS e Bootstrap, aqui estão algumas dicas que podem ajudá-lo a melhorar seus estudos e evitar erros comuns:</p>
+
+        <ul>
+            <li><strong>HTML:</strong> Sempre use as tags semânticas corretamente (como &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, etc.) para melhorar a acessibilidade e SEO do seu site.</li>
+            <li><strong>CSS:</strong> Use a abordagem Mobile-First! Estilize sua página para dispositivos móveis primeiro e depois ajuste para telas maiores com media queries.</li>
+            <li><strong>Bootstrap:</strong> Aproveite os componentes prontos do Bootstrap, como o sistema de grid e os botões, mas também aprenda a personalizar as classes para deixar seu design único.</li>
+            <li><strong>Responsividade:</strong> A responsividade é fundamental para garantir que seu site funcione bem em qualquer dispositivo. O Bootstrap facilita isso, mas é importante entender como os breakpoints e grids funcionam.</li>
+        </ul>
+
+        <h3 class="mt-5">Trechos de Código Úteis</h3>
+        <p>Aqui estão alguns trechos de código que eu aprendi durante o curso e que podem ser úteis para quem está começando. Esses exemplos resolvem alguns problemas comuns e podem ser um bom ponto de partida para seus projetos.</p>
+
+        
+        <h4>1. Layout Responsivo com o Grid do Bootstrap</h4>
+        <p>O Bootstrap usa um sistema de grid baseado em 12 colunas. Aqui está um exemplo simples de layout responsivo com o grid:</p>
+        
+        <pre class="bg-light p-3">
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-md-4"&gt;Coluna 1&lt;/div&gt;
+    &lt;div class="col-md-4"&gt;Coluna 2&lt;/div&gt;
+    &lt;div class="col-md-4"&gt;Coluna 3&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+        </pre>
+        
+        <p>O código acima cria três colunas, cada uma com 4 colunas do grid, que se ajustam para 100% de largura em telas menores.</p>
+
+        
+        <h4>2. Centralizando Conteúdo com Flexbox</h4>
+        <p>Uma das maneiras mais fáceis de centralizar conteúdo usando CSS é com Flexbox. Aqui está um exemplo para centralizar um bloco de texto:</p>
+        
+        <pre class="bg-light p-3">
+&lt;div class="d-flex justify-content-center align-items-center" style="height: 100vh;"&gt;
+  &lt;div&gt;Texto Centralizado!&lt;/div&gt;
+&lt;/div&gt;
+        </pre>
+
+        <p>Este exemplo utiliza as classes do Bootstrap para aplicar o Flexbox e centralizar o conteúdo vertical e horizontalmente. A classe <code>d-flex</code> ativa o Flexbox, e <code>justify-content-center</code> e <code>align-items-center</code> garantem o alinhamento adequado.</p>
+
+       
+        <h4>3. Botão com Efeito de Hover</h4>
+        <p>Um efeito simples de hover pode melhorar a experiência do usuário. Aqui está um exemplo de um botão com efeito de transição:</p>
+        
+        <pre class="bg-light p-3">
+&lt;button class="btn btn-primary"&gt;Clique Aqui&lt;/button&gt;
+
+&lt;style&gt;
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+&lt;/style&gt;
+        </pre>
+
+        <p>O código acima usa a classe <code>btn-primary</code> do Bootstrap, com um estilo adicional para mudar a cor do fundo quando o usuário passa o mouse sobre o botão.</p>
+
+        <h3 class="mt-5">Conclusão</h3>
+        <p>Esses são apenas alguns exemplos e dicas que aprendi enquanto estudo HTML, CSS e Bootstrap. Se você está começando, não desanime! A prática constante e a construção de projetos reais vão te ajudar a aprimorar suas habilidades.</p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2024 Curso Capacita Brasil - Atlântico - FullStack</p>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
